@@ -1,0 +1,5 @@
+query HelloWorld ($name: String) {
+  hello (name: $name) {
+    message
+  }
+}
